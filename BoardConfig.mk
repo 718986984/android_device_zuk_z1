@@ -122,10 +122,11 @@ HAVE_ADRENO_SOURCE               := false
 NUM_FRAMEBUFFER_SURFACE_BUFFERS  := 3
 
 # GPS
-USE_DEVICE_SPECIFIC_GPS     := true
-USE_DEVICE_SPECIFIC_LOC_API := true
-TARGET_GPS_HAL_PATH         := device/zuk/ham/gps
-TARGET_PROVIDES_GPS_LOC_API := true
+USE_DEVICE_SPECIFIC_GPS               := true
+USE_DEVICE_SPECIFIC_LOC_API           := true
+TARGET_GPS_HAL_PATH                   := device/zuk/ham/gps
+TARGET_PROVIDES_GPS_LOC_API           := true
+BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
