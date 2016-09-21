@@ -129,6 +129,9 @@ TARGET_GPS_HAL_PATH                   := device/zuk/ham/gps
 TARGET_PROVIDES_GPS_LOC_API           := true
 BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 
+# Keymaster
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
