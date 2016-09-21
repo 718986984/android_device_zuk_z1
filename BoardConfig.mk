@@ -180,10 +180,10 @@ ifneq ($(QCPATH),)
 endif
 
 # SELinux policies
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
 # QCOM sepolicy
-BOARD_SEPOLICY_DIRS += \
-    device/zuk/ham/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    device/zuk/ham/sepolicy
 
 -include vendor/zuk/ham/BoardConfigVendor.mk
